@@ -1,0 +1,33 @@
+#main {
+  background-color: #d4d4d4;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+#img-div {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  margin: 1em;
+}
+
+#image,
+#img-caption {
+  align-self: center;
+  width: 95%;
+}
+
+#img-caption {
+  text-align: center;
+  padding: 1em;
+}
+
+.quote {
+  margin: 0;
+  padding: 1em;
+}
+.quote figcaption,
+.quote blockquote {
+  margin: 1em;
+}
